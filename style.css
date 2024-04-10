@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    background-image: url("Tesla-Einstein.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    padding: 10px;
+
+} .item {
+    padding: 10px;
+    color: white;
+}
+header .item:hover {
+    color: rgba(255, 0, 0, 0.397);
+    background-color: rgba(0, 0, 0, 0.144);
+    cursor: poi;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
