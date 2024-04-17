@@ -6,7 +6,8 @@
 }
 body{
     height: 100vh;
-    background-image: url("Tesla-Einstein.jpg");
+    width: 100vw;
+    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1210/road-natural_landscape_desktop_Wallpapers_1366x768.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,16 +22,38 @@ header {
 } .item {
     padding: 10px;
     color: white;
+    transition: 0.5s;
 }
 header .item:hover {
-    color: rgba(255, 0, 0, 0.397);
-    background-color: rgba(0, 0, 0, 0.144);
-    cursor: poi;
-
+    color: blue;
+    background-color: rgba(255, 255, 255, 0.068);
+    cursor: pointer;
+    border-radius: 10%;
 }
 
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    height: 100%;
+}
+
+.container div {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.404);
+
+    font-size: 35px;
+    background-color: rgba(0, 0, 255, 0.404);
+    padding: 10px;
+
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+} .container div:hover {
+    background-color: blue;
+    color: white;
 }
